@@ -51,7 +51,7 @@ a:link {
 }
 .top-newsletter-dropdown #btn-close-newsletter {
     position: absolute;
-    right: 10px;
+    right: 2px;
     top: 15px;
     background: #eee;
     color: #555;
@@ -61,6 +61,7 @@ a:link {
     moz-border-radius: 50%;
     webkit-border-radius: 50%;
     cursor: pointer;
+    display: block;
 }
 .top-newsletter-dropdown #btn-close-newsletter i {
     color: #666;

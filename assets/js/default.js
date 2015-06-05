@@ -16,9 +16,16 @@ $(document).ready(function(){
 
     //WHEN THE USER CLICKS THE CLOSE BUTTON, ANIMATE HIDE THE NEWSLETTER TOP
     $('#btn-close-newsletter').on('click', function(){
-        $(ddElement).animate({'margin-top' : -126 }, function(){
-            $.cookie('mchimp-pop', 'loaded');
-        });
+        //CHECK THE WINDOW WIDTH IF SMALL DEVICE OR WEB
+        if ($(window).width() > 640) {
+            $(ddElement).animate({'margin-top' : -126 }, function(){
+                $.cookie('mchimp-pop', 'loaded');
+            });
+        }else{
+            $(ddElement).animate({'margin-top' : -233 }, function(){
+                $.cookie('mchimp-pop', 'loaded');
+            });
+        };
     });
 
     /*MENU*/
