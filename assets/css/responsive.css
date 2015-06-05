@@ -1,15 +1,24 @@
 // Small screens
-@media only screen { } /* Define mobile styles */
+@media only screen {} /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
     
     body, .top-newsletter-dropdown {
         margin-top: 51px;
     }
+    .logo-sd img {
+        display: block;
+        margin: 0 auto;
+    }
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
-@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+    .logo-sd img {
+        display: block;
+        margin: 0 auto;
+    }
+} /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     body, .top-newsletter-dropdown {
@@ -18,9 +27,9 @@
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {} /* min-width 1025px, large screens */
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 // XLarge screens
 @media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */

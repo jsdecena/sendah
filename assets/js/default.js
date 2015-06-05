@@ -32,7 +32,7 @@ $(document).ready(function(){
     });
 
     // Initialize navgoco with default options
-    $(".main-menu").navgoco({
+    $(".main-menu, .menu-lg-sd").navgoco({
         caret: '<span class="caret"></span>',
         accordion: false,
         openClass: 'open',
