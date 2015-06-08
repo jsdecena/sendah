@@ -205,6 +205,30 @@ a:link {
     background-color: #1e8dd5;
     border-color: #1e8dd5;
 }
+.category-sd-pop {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    color: #777;
+    min-width: 380px;
+    min-height: 375px;
+    padding: 15px;
+    border-radius: 5px;
+    webkit-border-radius: 5px;
+    moz-border-radius: 5px;
+    box-shadow: 1px;
+}
+.category-sd-pop a {
+    color: #777;
+}
+.category-sd-pop h5 {
+    font-weight: 600
+}
+.category-sd-pop ul li {
+    margin-left: 15px;
+    line-height: 28px;
+}
 ul.menu-lg-sd > li ul li a {
     color: #888
 }
@@ -222,4 +246,14 @@ ul.menu-lg-sd > li > a > span {
 }
 ul.menu-lg-sd > li > a > span i {
     font-size: 8px;
+}
+.banner-right-main > div,
+.banner-right-sub > div  {
+    padding: 0;
+}
+
+/*BANNERS*/
+.banners-sd {
+    position: relative;
+    padding-left: 0;
 }
