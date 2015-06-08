@@ -13,7 +13,7 @@ body, .top-newsletter-dropdown {
 
  .no-right-border
 {
-  border: 1px solid lightgray;
+  border: 1px solid #999;
 }
 .content-header
 {
@@ -26,8 +26,8 @@ body, .top-newsletter-dropdown {
     .logo-sd img {
         display: block;
         margin: 0 auto;
-    }
-    }/* min-width 641px, medium screens */
+    }  
+}/* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     body, .top-newsletter-dropdown {
@@ -35,7 +35,7 @@ body, .top-newsletter-dropdown {
     }
      .no-right-border
     {
-      border: 1px solid lightgray;
+      border: 1px solid #999;
     }
     
  }/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
@@ -85,8 +85,85 @@ padding-right: 0;
 {
   display:block;
 }
+ul.side-menu-lg {
+    padding-right: 10px;
+}
+ul.side-menu-lg li a {
+    width: 165px;
+    display: block;
+    padding: 7px 30px 0 0;
+}
+ul.sub {
+    width: 530px;
+    min-height: 420px;
+    left: 162px;
+}
+    
+ }/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 
+/* Large Screens */
+@media only screen and (min-width: 1200px) {
+    ul.side-menu-lg {
+        padding-right: 10px;
+    }
+    ul.side-menu-lg li a {
+        width: 196px;
+        display: block;
+        padding: 7px 35px 0 0;
+    }
+    ul.sub {
+        width: 530px;
+        min-height: 420px;
+        left: 195px;
+    }
+    .row .first-row-left
+    {
+        padding-right: 0;  
+    }
+    .row .second-row-left
+    {
+       padding-right: 0; 
+    }
+    .row .second-row-second-column
+    {
+       padding-right: 0; 
+    }
+      .row .third-row-first-column
+    {
+       padding-right: 0; 
+    }
+    .row .content
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row .bottom-images
+    {
+       padding-left: 0;
+      padding-right: 0;
+    }
+    .row .social-images
+    {
+      padding-left: 1;
+      padding-right: 1;
+    }
+    .row .content-padding
+    {
+      padding-right:0px;
+    }
+    .row .search-box-padding
+    {
+      padding-right: 0px;
+    } 
+    .desktop-only
+    {
+      display:block;
+    }
+    .row-1-col-left {
+        padding-right: 0;
+    }
 }/* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
   } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
