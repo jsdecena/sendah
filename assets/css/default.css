@@ -303,3 +303,14 @@ ul.list-none li
      color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 15px; 
 }
 
+.footer{
+    position: relative;
+    padding-top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:40px;
+    background:#333333;
+    text-align: center;
+    color:#fff;
+}
