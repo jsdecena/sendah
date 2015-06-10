@@ -233,23 +233,18 @@ ul.side {
     display: inline-block;
     position: relative;
     width: 570px;
-}
 
-.height
-{
-    font: 16px/100px sans-serif;
-    height: 20px;
 }
 
 div.side {
 
     display: none;
-    height: 401px;
+    height: auto;
     position: absolute;
     right: 0;
     top: 0;
     width: 390px;
-    z-index:1;
+    z-index: 1;
 
 }
 
@@ -268,7 +263,7 @@ clear:none;
 }
 .wrap img {
  position:relative;
-
+clear:both;
 }
 .wrap .desc {
 display:block;
@@ -277,8 +272,8 @@ width:100%;
 top:2%;
 left:0;
 
-}
 
+}
 
 h2.padding-left
 {
@@ -298,7 +293,7 @@ ul.list-none li
 {
     list-style-type: none;
      float:left; width:50%;
-     color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 15px; 
+     color: #4c4a37; font-family: 'sans-serif', sans-serif; font-size: 12px; 
 }
 
 .footer{
@@ -311,4 +306,21 @@ ul.list-none li
     background:#333333;
     text-align: center;
     color:#fff;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.padding-left
+{
+    padding-left:0px !important;
+}
+.padding-left-bottom
+{
+    padding-left:0px !important;
+    padding-bottom: 0px !important;
+}
+.padding-bottom
+{
+    padding-bottom: 0px !important;
 }
