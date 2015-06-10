@@ -245,32 +245,30 @@ div.side {
 
     display: none;
     height: 401px;
-    position: relative;
+    position: absolute;
     right: 0;
     top: 0;
-    width: 380px;
-  opacity:1;
-  transition-delay:1s;
+    width: 390px;
+    z-index:1;
+
 }
 
 a.side:hover + div.side,
 div.side:hover {
     display: block;
     position: absolute;
- visibility:visible;
-  opacity:1;
-  transition-delay:2s;
+
 
 }
 .wrap {
- /* force the div to properly contain the floated images: */
+ 
 position:relative;
 float:left;
 clear:none;
 }
 .wrap img {
  position:relative;
-z-index:1;
+
 }
 .wrap .desc {
 display:block;
@@ -278,7 +276,7 @@ position:absolute;
 width:100%;
 top:2%;
 left:0;
-z-index:2;
+
 }
 
 
