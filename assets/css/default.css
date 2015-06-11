@@ -241,6 +241,9 @@ div.side {
     top: 0;
     width: 390px;
     z-index: 1;
+    max-width: 600px;
+    padding-top:8px;
+    max-height: 500px;
 
 }
 
@@ -260,6 +263,9 @@ clear:none;
 .wrap img {
  position:relative;
 clear:both;
+    max-width: 600px;
+    max-height: 500px;
+
 }
 .wrap .desc {
 display:block;
@@ -289,6 +295,7 @@ ul.list-none li
     list-style-type: none;
      float:left; width:50%;
      color: #4c4a37; font-family: 'sans-serif', sans-serif; font-size: 12px; 
+
 }
 
 .footer{
@@ -302,20 +309,23 @@ ul.list-none li
     text-align: center;
     color:#fff;
 }
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}
-.padding-left
+.top-right
 {
-    padding-left:0px !important;
+    padding-top:8px;
+    padding-right:0px;
 }
-.padding-left-bottom
+.bottom-right
 {
-    padding-left:0px !important;
-    padding-bottom: 0px !important;
+    padding-bottom: 8px;
+    padding-right: 0px;
 }
-.padding-bottom
+.left-right
 {
-    padding-bottom: 0px !important;
+    padding-left:15px;
+    padding-right:0px;
+}
+div.responsive
+{
+    height:auto;
+    background-color: black;
 }
