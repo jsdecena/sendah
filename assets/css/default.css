@@ -239,7 +239,7 @@ div.side {
     position: absolute;
     right: 0;
     top: 0;
-    width: 360px;
+    width: 390px;
     z-index: 1;
     max-width: 600px;
     padding-top:8px;
@@ -281,7 +281,7 @@ h2.left
   padding-left: 20px;
  font-size: 26px;
  font-weight: 300;
- color: #ffffff;
+ color: #4c4a37;
  margin: 0 0 24px;
 }
 
@@ -295,7 +295,6 @@ ul.list-none li
     list-style-type: none;
      float:left; width:50%;
      color: #4c4a37; font-family: 'sans-serif', sans-serif; font-size: 12px; 
-
 }
 
 .footer{
@@ -336,4 +335,15 @@ ul.list-none li
 .radius
 {
     border-radius: 4px;
+}
+
+
+img.tiles:hover { 
+  border: 1px  solid white; 
+} 
+
+.image-size
+{
+    width:500px;
+    height:430px;
 }
