@@ -2,14 +2,26 @@
 @media only screen {} /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
-    
+
     body, .top-newsletter-dropdown {
         margin-top: 51px;
+        padding-left:0px;
     }
     .logo-sd img {
         display: block;
         margin: 0 auto;
     }
+
+     .no-right-border
+    {
+      border: 1px solid lightgray;
+    }
+    .content-header
+    {
+      font-size: 15px;
+    }
+
+
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
@@ -18,23 +30,85 @@
         display: block;
         margin: 0 auto;
     }
-} /* min-width 641px, medium screens */
+
+
+
+    }/* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     body, .top-newsletter-dropdown {
         margin-top: 51px;
     }
-} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
-// Large screens
-@media only screen and (min-width: 64.063em) {} /* min-width 1025px, large screens */
+     .no-right-border
+    {
+      border: 1px solid lightgray;
+    }
+    
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+ }/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+
+/* Large Screens */
+@media only screen and (min-width: 1200px) {   
+    .row .first-row-left{
+    padding-right: 0;  }
+    .row .second-row-left
+    {
+       padding-right: 0; 
+    }
+    .row .second-row-second-column
+    {
+       padding-right: 0; 
+    }
+      .row .third-row-first-column
+    {
+       padding-right: 0; 
+    }
+    .row .content
+    {
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    .row .bottom-images
+    {
+       padding-left: 0;
+      padding-right: 0;
+    }
+    .row .social-images
+    {
+      padding-left: 1;
+      padding-right: 1;
+    }
+
+    .row .content-padding
+    {
+      padding-right:0px;
+    }
+    .row .search-box-padding
+    {
+      padding-right: 0px;
+    } 
+    .social-icons-padding
+    {
+      padding-left: 35px;
+    }
+}/* min-width 1025px, large screens */
+
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 // XLarge screens
-@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) {
+ } /* min-width 1441px, xlarge screens */
 
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+
+  } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
 // XXLarge screens
 @media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+
+
