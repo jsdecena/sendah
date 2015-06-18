@@ -327,11 +327,11 @@ ul.list-none li
 }
 
 img.tiles:hover { 
-  border: 1px solid #ebebeb;
+  border: 1px solid #fff8f8;
 } 
 img.tiles
 {
-    border:1px solid #cccccc;
+    border:1px solid #ebebeb;
 }
 
 .left
@@ -482,7 +482,6 @@ a.information,a.information:hover
 {
     font-family: 'sans-serif', sans-serif; 
     font-size: 9px;
-    text-align: center;
     font-style: italic;
     margin-top: 15px;
 }
@@ -561,7 +560,7 @@ a.information,a.information:hover
 .social-content-margin
 {
      margin-left:0px;
-     padding-left: 10px;
+     padding-left: 12px;
      padding-right: 0px;
 }
 .padding-left
@@ -586,7 +585,12 @@ a.information,a.information:hover
 {
     padding-top: 25px;
 }
-.social-icons-padding
+.desktop-only
 {
-    padding-left: 15px;
+    display:none;
+}
+ .social-icons-padding
+{
+  padding-left: 15px;
+  margin-top:0px;
 }

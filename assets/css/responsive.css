@@ -90,9 +90,11 @@
     {
       padding-right: 0px;
     } 
-    .social-icons-padding
+   
+
+    .desktop-only
     {
-      padding-left: 35px;
+      display:block;
     }
 }/* min-width 1025px, large screens */
 
