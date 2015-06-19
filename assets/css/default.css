@@ -230,8 +230,9 @@ ul.side {
     border: 0px solid #444;
     display: inline-block;
     position: relative;
-    width: 570px;
-
+    max-width: 570px;
+    margin-right: -17px;
+    z-index:1;
 }
 
 div.side {
@@ -239,9 +240,10 @@ div.side {
     display: none;
     height: auto;
     position: absolute;
-    right: 0;
+    /*right: 0;*/
+    left:0;
     top: 0;
-    width: 390px;
+    /*width: 390px;*/
     z-index: 1;
     padding-top:8px;
 
@@ -251,7 +253,7 @@ a.side:hover + div.side,
 div.side:hover {
     display: block;
     position: absolute;
-
+    left:185px;
 
 }
 .wrap {
@@ -411,7 +413,7 @@ img.tiles
     top: -0.5em;
     padding-right: 25px;
     padding-left: 25px;
-
+    display:inline;
 
 }
 .content-header-margin {
@@ -490,10 +492,12 @@ a.information,a.information:hover
     width:150px;
     background-color: black;
     border-radius: 0px;
+
 }
 .read-more-btn:hover
 {
     background-color: black;
+
 }
 .drop-message-btn
 {
@@ -593,4 +597,54 @@ a.information,a.information:hover
 {
   padding-left: 15px;
   margin-top:0px;
+}
+.right-icon-cat-flower
+{
+   color:#ccc; 
+   font-size:16px;
+   padding-left:110px
+}
+.right-icon-cat-food
+{
+    color:#ccc; 
+    font-size:16px;
+    padding-left:63px;
+}
+.right-icon-cat-elec
+{
+   color:#ccc; 
+   font-size:16px;
+   padding-left:6px
+}
+.right-icon-cat-gad
+{
+    color:#ccc; 
+   font-size:16px;
+   padding-left:26px
+}
+.right-icon-cat-beut
+{
+     color:#ccc; 
+   font-size:16px;
+   padding-left:129px
+}
+.side-category-padding
+{
+    padding-top:8px;
+}
+.top-news-letter-display
+{
+    display:none;
+}
+.top-news-btn-close
+{
+    margin:20px ;
+}
+.no-right-padding
+{
+    padding-right: 0px;
+}
+.info-padding-bottom
+{
+    padding-bottom: 45px;
 }
