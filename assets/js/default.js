@@ -28,7 +28,7 @@ $(document).ready(function(){
         };
     });
 
-    /*MENU SMALL DEVICE*/
+    /*MENU*/
     $('#nav-expander').on('click',function(e){
         e.preventDefault();
         $('body').toggleClass('nav-expanded');
@@ -38,18 +38,8 @@ $(document).ready(function(){
         $('body').removeClass('nav-expanded');
     });
 
-    /*MENU WEB*/
-    $('#menu-lg li a').hover(
-        function(){
-            $('#category-sd').show();
-        },
-        function(){
-            $('#category-sd').hide();
-        }
-    );
-
     // Initialize navgoco with default options
-    $(".main-menu").navgoco({
+    $(".main-menu, .menu-lg-sd").navgoco({
         caret: '<span class="caret"></span>',
         accordion: false,
         openClass: 'open',
