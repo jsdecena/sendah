@@ -88,85 +88,255 @@
                     <option>Computer and Gadgets</option>
                     <option>Negosyo Packages</option>
                 </select>
-            </div>            
-            <div class="row"> <div class="spacer-sd-vertical"></div> <div class="spacer-sd-vertical"></div></div>
-            <div class="row">
+            </div>
+            <div class="row home-content">
                 <div class="col-md-2 categories-sd">
-                    <!-- CATEGORIES -->
-                    <ul class="menu-lg-sd list-unstyled visible-md visible-lg">
-                        <li class="sale-sd"><a href="#">Super Sale <sup style="display:none"><span>sale</span></sup></a></li>
-                        <li><a href="#">Sendah Specials</a></li>
+                    <ul id="side-menu" class="list-unstyled visible-md visible-lg side-menu-lg">
+                        <li class="sale-sd"><a href="#">Super Sale</a></li>
+                        <li><a href="#">Sendah Specials</li></a>
                         <li><a href="#">Jollibee Padala Packages</a></li>
-                        <li><a href="#">Flowers <span> <i class="fa fa-chevron-down"></i></span></a>
-                          <ul class="list-unstyled">
-                              <li class="sub-nav"><a href="#">Flower bouquet </a></li>
-                              <li class="sub-nav"><a href="#">Basket Arrangement </a></li>
-                              <li class="sub-nav"><a href="#">Chocolate bouquet</a></li>
-                              <li class="sub-nav"><a href="#">Flower cake arrangement </a></li>
-                              <li class="sub-nav"><a href="#">Fruit and Hamper basket </a></li>
-                              <li class="sub-nav"><a href="#">Fruit bouquet </a></li>
-                          </ul>                            
-                        </li>
+                        <li><a href="#">Flowers</a></li>
                         <li><a href="#">Gift Certificates</a></li>
                         <li><a href="#">Grocery items</a></li>
                         <li><a href="#">Food and Drinks</a></li>
-                        <li><a href="#">Electronics and Appliances <span> <i class="fa fa-chevron-down"></i></span> </a>
-                          <ul class="list-unstyled">
-                              <li class="sub-nav"><a href="#">Audio, Video, TV </a></li>
-                              <li class="sub-nav"><a href="#">Home Appliances </a></li>
-                          </ul>
+                        <li class="sub"><a href="#">Electronics &amp; Appliances <i class="fa fa-chevron-right pull-right"></i></a>
+                            <ul class="sub list-unstyled" style="display:none">
+                                <li>
+                                    <h2 class="new-title">Electronics &amp; Appliances</h2>
+                                    <ul>
+                                        <li class="inline"><a href="#">Flower bouquet </a></li>
+                                        <li class="inline"><a href="#">Basket Arrangement </a></li>
+                                        <li class="inline"><a href="#">Chocolate bouquet</a></li>
+                                        <li class="inline"><a href="#">Flower cake arrangement </a></li>
+                                        <li class="inline"><a href="#">Fruit and Hamper basket </a></li>
+                                    </ul>
+                                    <div class="cat-image">
+                                        <img src="assets/img/category-images/appliances.jpg" width="250" height="250" alt="" />
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
-                        <li><a href="#">Beauty health and Personal Care</a></li>
+                        <li class="sub"><a href="#">Beauty health &amp; Personal Care <i class="fa fa-chevron-right pull-right"></i></a>
+                            <ul class="sub list-unstyled" style="display:none">
+                                <li>
+                                    <h2 class="new-title">Beauty health &amp; Personal Care</h2>
+                                    <ul>
+                                        <li class="inline"><a href="#">Flower bouquet </a></li>
+                                        <li class="inline"><a href="#">Basket Arrangement </a></li>
+                                        <li class="inline"><a href="#">Chocolate bouquet</a></li>
+                                        <li class="inline"><a href="#">Flower cake arrangement </a></li>
+                                        <li class="inline"><a href="#">Fruit and Hamper basket </a></li>
+                                    </ul>
+                                    <div class="cat-image">
+                                        <img src="assets/img/category-images/beauty-health.jpg" width="250" height="250" alt="" />
+                                    </div>
+                                </li>
+                            </ul>                               
+                        </li>
                         <li><a href="#">Lifestyle and Fashion</a></li>
                         <li><a href="#">Babies and Toddler</a></li>
-                        <li><a href="#">Emergency Supplies</a></li>
-                        <li><a href="#">Computer and Gadgets</a></li>
+                        <li><a href="#">Emergency Supplies</i></a></li>                           
+                        <li><a href="#">Computer and Gadgets </a></li>
                         <li><a href="#">Negosyo Packages</a></li>
-                    </ul>                    
+                    </ul> 
                     <nav>
-                    <ul class="list-unstyled main-menu">
-                        <li class="text-right"><a href="#" id="nav-close">X</a></li>
-                        <li> <a href="#"><i class="fa fa-lock"></i> Login</a></li>
-                        <li> <a href="#"><i class="fa fa-pencil"></i> Register</a></li>
-                        <li> <a href="#"><i class="fa fa-money"></i> Pay Bills</a></li>
-                        <li> <a href="#"><i class="fa fa-paper-plane"></i> Sendload</a></li>
-                        <li> <a href="#"><i class="fa fa-shopping-cart"></i> 0 items</a></li>
-                    </ul>
+                        <ul class="list-unstyled main-menu">
+                            <li class="text-right"><a href="#" id="nav-close">X</a></li>
+                            <li> <a href="#"><i class="fa fa-lock"></i> Login</a></li>
+                            <li> <a href="#"><i class="fa fa-pencil"></i> Register</a></li>
+                            <li> <a href="#"><i class="fa fa-money"></i> Pay Bills</a></li>
+                            <li> <a href="#"><i class="fa fa-paper-plane"></i> Sendload</a></li>
+                            <li> <a href="#"><i class="fa fa-shopping-cart"></i> 0 items</a></li>
+                        </ul>
                     </nav>
                     <div class="navbar navbar-inverse navbar-fixed-top visible-sm visible-xs">
                         <div class="navbar-header pull-left">
-                          <a id="nav-expander" class="nav-expander fixed">
-                            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
-                          </a>
+                            <a id="nav-expander" class="nav-expander fixed">MENU <i class="fa fa-bars fa-lg white"></i></a>
                         </div>      
                     </div>                    
                 </div>
-                <div class="col-md-10 banners-sd">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <a href="#"><img src="assets/img/banners/banner-1.gif" alt="" class="img-responsive" /></a>
+                <div class="col-md-10 col-xs-12 banners-sd">
+                    <ul class="list-unstyled visible-lg visible-md">
+                        <li class="col-md-4">
+                            <div class="row">
+                                <ul class="list-unstyled list-inline">
+                                    <li><a href="#"><img src="assets/banners/send-gifts-300x258.png" class="img-responsive" /></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-md-8">
+                            <div class="row">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="col-md-8"><a href="#"><img src="assets/banners/send-load-700x215.png" class="img-responsive" /></a></li>
+                                    <li class="col-md-4"><a href="#"><img src="assets/banners/send-gcs-350x215.png" class="img-responsive" /></a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="col-md-4"><a href="#"><img src="assets/banners/jollibee-padala-350x215.png" class="img-responsive" /></a></li>
+                                    <li class="col-md-4"><a href="#"><img src="assets/banners/send-flowers-350x215.png" class="img-responsive" /></a></li>
+                                    <li class="col-md-4"><a href="#"><img src="assets/banners/pay-bills-350x215.png" class="img-responsive" /></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="home-row row">
+                        <ul class="list-unstyled">
+                            <li class="col-md-6 col-xs-12"><a href="#"><img src="http://placehold.it/720x215" alt="" class="img-responsive radius tiles"/></a></li>
+                            <li class="col-md-6 col-xs-12"><a href="#"><img src="http://placehold.it/720x215" alt="" class="img-responsive radius tiles"/></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="home-row row">
+                        <div class="col-md-12 col-xs-12">
+                            <div class="featured-products">
+                                <div class="row row-items">
+                                    <h1 class="new-title">
+                                        <span class="strike"></span>
+                                        <span class="title-featured">Featured Products</span>
+                                    </h1>
+                                    <ul class="list-unstyled">
+                                        <li class="col-md-3 col-sm-4 col-xs-6">
+                                            <div class="row-item-image">
+                                                <span class="tag tag-sale">Sale!</span>
+                                                <a href="#"><img src="http://placehold.it/200x200" width="214" height="200" class="img-thumbnail img-responsive" alt=""></a>                                                
+                                            </div>
+                                            <div class="row-item-desc"><p><a href="#">Jollibee Padala Package <br /> Meal A (Php 1,000) </a></p></div>
+                                            <div class="row-items-actions">
+                                                <h3 class="hidden">Free Delivery</h3>
+                                                <h4>US$ 26.59</h4>
+                                                <button type="button" class="btn btn-primary btn-block"><i class="fa fa-shopping-cart"></i> Add to Cart</button>                                                
+                                            </div>
+                                        </li>
+                                        <li class="col-md-3 col-sm-4 col-xs-6">
+                                            <div class="row-item-image">
+                                                <a href="#"><img src="http://placehold.it/200x200" width="214" height="200" class="img-thumbnail img-responsive" alt=""></a>
+                                            </div>
+                                            <div class="row-item-desc"><p><a href="#">Jollibee Padala Package <br /> Meal A (Php 1,000) </a></p></div>
+                                            <div class="row-items-actions">
+                                                <h3>Free Delivery</h3>
+                                                <h4 class="sale-price">US$ 26.59 <del>US$ 27.99</del></h4>
+                                                <button type="button" class="btn btn-primary btn-block"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                                            </idv>
+                                        </li>
+                                        <li class="col-md-3 col-sm-4 col-xs-6">
+                                            <div class="row-item-image">
+                                                <a href="#"><img src="http://placehold.it/200x200" width="214" height="200" class="img-thumbnail img-responsive" alt=""></a>
+                                            </div>
+                                            <div class="row-item-desc"><p><a href="#">Jollibee Padala Package <br /> Meal A (Php 1,000) </a></p></div>
+                                            <div class="row-items-actions">
+                                                <h3 class="hidden">Free Delivery</h3>
+                                                <h4 class="sale-price">US$ 26.59 <del>US$ 27.99</del></h4>
+                                                <button type="button" class="btn btn-primary btn-block"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                                            </div>
+                                        </li>
+                                        <li class="col-md-3 col-sm-4 col-xs-6">
+                                            <div class="row-item-image">
+                                                <span class="tag tag-new">New!</span>
+                                                <a href="#"><img src="http://placehold.it/200x200" width="214" height="200" class="img-thumbnail img-responsive" alt=""></a>
+                                            </div>
+                                            <div class="row-item-desc"><p><a href="#">Jollibee Padala Package <br /> Meal A (Php 1,000) </a></p></div>
+                                            <div class="row-items-actions">
+                                                <h3>Free Delivery</h3>
+                                                <h4 class="sale-price">US$ 26.59 <del>US$ 27.99</del></h4>
+                                                <button type="button" class="btn btn-primary btn-block"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                                            </div>
+                                        </li>
+                                        <li class="col-md-3 col-sm-4 col-xs-6">
+                                            <div class="row-item-image">
+                                                <a href="#"><img src="http://placehold.it/200x200" width="214" height="200" class="img-thumbnail img-responsive" alt=""></a>
+                                            </div>
+                                            <div class="row-item-desc"><p><a href="#">Jollibee Padala Package <br /> Meal A (Php 1,000) </a></p></div>
+                                            <div class="row-items-actions">
+                                                <h3>Free Delivery</h3>
+                                                <h4 class="sale-price">US$ 26.59 <del>US$ 27.99</del></h4>
+                                                <button type="button" class="btn btn-primary btn-block"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-7">
-                            <div class="row">
-                                <div class="col-md-7"><a href="#"><img src="assets/img/banners/banner-2.gif" alt="" class="img-responsive" /></a></div>
-                                <div class="col-md-5"><a href="#"><img src="assets/img/banners/banner-3.gif" alt="" class="img-responsive" /></a></div>
-                            </div>
-                            <div class="row"> <div class="spacer-sd-vertical"></div></div>
-                            <div class="row">
-                                <div class="col-md-4"><a href="#"><img src="assets/img/banners/banner-3.gif" alt="" class="img-responsive" /></a></div>
-                                <div class="col-md-4"><a href="#"><img src="assets/img/banners/banner-3.gif" alt="" class="img-responsive" /></a></div>
-                                <div class="col-md-4"><a href="#"><img src="assets/img/banners/banner-3.gif" alt="" class="img-responsive" /></a></div>
-                            </div>
+                    </div>
+                    
+                    <div class="home-row footer-row">
+                        <div class="row">
+                            <ul class="list-unstyled col-md-12 col-sm-12">
+                                <li class="col-md-3 col-xs-6">
+                                    <p class="menu-bottom">About Us</p>
+                                    <p>Sendah is an online gift remittance<br>
+                                    and payment platform that gives<br>
+                                    its users a "better way to send" to<br>
+                                    the Philippines. Sendah carries a<br> 
+                                    diverse range of products and<br>
+                                    services that make sending to the<br>
+                                    Philippines fast,easy and hassle-free
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Read more</a>
+                                </li>
+                                <li class="col-md-3 col-xs-6">
+                                    <p class="menu-bottom">Information</p>
+                                    <ul>
+                                        <li class="menu-bottom-li"><a href="#">FAQs</a></li>
+                                        <li class="menu-bottom-li"><a href="#">Shipping Policy</a></li>
+                                        <li class="menu-bottom-li"><a href="#">Privacy Policy</a></li>
+                                        <li class="menu-bottom-li"><a href="#">Terms of Use</a></li>
+                                        <li class="menu-bottom-li"><a href="#">Refund Policy</a></li>
+                                        <li class="menu-bottom-li"><a href="#">How to Shop</a></li>
+                                        <li class="menu-bottom-li"><a href="#">Payment Options</a></li>                                         
+                                    </ul>
+                                    <a href="#"><img src="http://placehold.it/200x100" width="200" height="100" class="img-thumbnail img-responsive" alt=""></a>
+                                </li>
+                                <li class="visible-xs clearfix"></li>
+                                <li class="col-md-3 col-xs-6">
+                                    <p class="menu-bottom">Contact Us</p>
+                                    <p>Philippine Office<br>
+                                    Ayannah Information Solutions<br>
+                                    Unit 3003, Jolibee Plaza, <br>
+                                    F. Ortigas Road, Ortigas Center, <br>
+                                    Pasig City, Philippines 1605<br> <br>
+                                    Phone: + 1 415 800 4798<br>
+                                    Email: <a href="mailto:help@sendah.com">help@sendah.com</a><br>
+                                    Us Office<br><br>
+
+                                    Ayannah Information Solutions<br>
+                                    Corporation<br>
+                                    23046 Avenida De La Carlota,<br>
+                                    Suite 600, Laguna Hills, Ca 92653
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Read more</a>
+                                </li>
+                                <li class="col-md-3 col-xs-6 social-container">
+                                    <p class="menu-bottom">Socialize with us!</p>
+                                    <a href="#"><img src="http://placehold.it/200x100" width="200" height="100" class="img-thumbnail img-responsive" alt=""></a>
+                                    <div class="row">
+                                        <div class="col-md-12 col-xs-12">
+                                            <p class="news-letter-p">SIGN UP FOR OUR NEWSLETTER</p>
+                                          <div class="input-group">
+                                              <input type="text" class="form-control news-letter-textbox" placeholder="Enter your e-mail" />
+                                              <span class="input-group-btn">
+                                                <button type="submit" class="btn btn-primary news-letter-button">SIGN UP</button>
+                                              </span>
+                                         </div>
+                                        </div>
+                                    </div>                                    
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+     </div>
+    </section>
+  
+    <footer class="footer">Copyright &copy; 2015 Ayannah Information Solutions. All Rights Reserved.</footer>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="assets/js/js.cookie.js"></script>
     <script src="assets/js/jquery.navgoco.min.js"></script>
     <script src="assets/js/default.js"></script>
+
 </body>
 </html>
