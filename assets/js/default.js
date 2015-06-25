@@ -2,8 +2,8 @@ $(document).ready(function(){
     
     var ddElement = '.top-newsletter-dropdown';
 
-    //CHECK FOR THE COOKIE BEFORE LOADING THE POP UP AGAIN
-    if ($.cookie('mchimp-pop') != 'loaded'){
+    //CHECK FOR THE COOKIEs BEFORE LOADING THE POP UP AGAIN
+    if (Cookies.get('mchimp-pop') != 'loaded'){
         //CHECK THE WINDOW WIDTH IF SMALL DEVICE OR WEB
         if ($(window).width() > 640) {
             //ON THE PAGE LOAD, REVEAL THE NEWSLETTER TOP
@@ -16,16 +16,15 @@ $(document).ready(function(){
 
     //WHEN THE USER CLICKS THE CLOSE BUTTON, ANIMATE HIDE THE NEWSLETTER TOP
     $('#btn-close-newsletter').on('click', function(){
+
         //CHECK THE WINDOW WIDTH IF SMALL DEVICE OR WEB
         if ($(window).width() > 640) {
-            $(ddElement).animate({'margin-top' : -126 }, function(){
-                $.cookie('mchimp-pop', 'loaded');
-            });
+            $(ddElement).animate({'margin-top' : -126 });
         }else{
-            $(ddElement).animate({'margin-top' : -233 }, function(){
-                $.cookie('mchimp-pop', 'loaded');
-            });
+            $(ddElement).animate({'margin-top' : -260 });
         };
+
+        Cookies.set('mchimp-pop', 'loaded');
     });
 
     /*MENU*/
@@ -54,4 +53,11 @@ $(document).ready(function(){
             easing: 'swing'
         }
     });
+
+    /*SUBMENU*/
+    $('.sub').hover(function(){
+        $(this).find('ul.sub').show();
+    }, function(){
+        $(this).find('ul.sub').hide();
+    });    
 });
