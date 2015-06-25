@@ -2,23 +2,29 @@
 @media only screen {} /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
-body, .top-newsletter-dropdown {
-    margin-top: 51px;
-    padding-left:0px;
-}
-.logo-sd img {
-    display: block;
-    margin: 0 auto;
-}
+  body, .top-newsletter-dropdown {
+      margin-top: 51px;
+      padding-left:0px;
+  }
+  .logo-sd img {
+      display: block;
+      margin: 0 auto;
+  }
 
- .no-right-border
-{
-  border: 1px solid #999;
-}
-.content-header
-{
-  font-size: 15px;
-}
+   .no-right-border
+  {
+    border: 1px solid #999;
+  }
+  .content-header
+  {
+    font-size: 15px;
+  }
+  h4 del {
+    display: block;
+  }
+  .row-items-actions h3 {
+    bottom: 65px;
+  }
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
