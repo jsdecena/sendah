@@ -112,7 +112,7 @@
   }
 
   .below-banner ul li:first-child div{
-      padding: 0 5px 0 15px; 
+      padding: 0 0 0 15px; 
   }
   .below-banner ul li:last-child div {
       padding: 0 15px 0 5px;
@@ -134,7 +134,7 @@
     ul.sub {
         width: 530px;
         min-height: 420px;
-        left: 195px;
+        left: 260px;
     }
     .row .first-row-left
     {

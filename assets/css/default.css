@@ -257,7 +257,7 @@ header .logo-wrap {
 ul#side-menu {
     position: fixed;
 }
-ul.side-menu-lg {
+ul.side-menu-lg li {
     position: relative;
 }
 ul.side-menu-lg li a {
@@ -269,11 +269,10 @@ ul.side-menu-lg li a {
 }
 ul.sub {
     display: block;
-    position: absolute;
-    left: 162px;
+    position: fixed;
+    top: 166px;
     width: 530px;
     min-height: 420px;    
-    top: 0;
     z-index: 3;
     border-radius: 5px;
     moz-border-radius: 5px;
@@ -886,8 +885,8 @@ a.information,a.information:hover
 .banners-sd ul li {
     padding-right: 0;
 }
-.banners-sd ul li .row {
-    padding-bottom: 5px;
+.banners-sd ul li ul li {
+    padding-top: 5px;
 }
 .search-bar {
     padding-top: 20px;
