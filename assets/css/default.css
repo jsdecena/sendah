@@ -10,7 +10,7 @@ body {
 }
 body .container-wrap {
     background: #ebebeb;
-    padding: 20px;
+    padding: 140px 0 0;
 }
 .form-control::-webkit-input-placeholder { font-size: 14px; font-family: 'Source Sans Pro', sans-serif }
 .form-control:-moz-placeholder { font-size: 14px; font-family: 'Source Sans Pro', sans-serif }
@@ -35,6 +35,7 @@ a:hover {
 }
 .home-content {
     padding-top: 20px;
+    position: relative;
 }
 .home-row {
     clear: both;
@@ -45,6 +46,19 @@ a:hover {
 .social-container ul {
     margin: 0 0 10px;
     float: left;
+}
+header {
+    position: relative;
+}
+header .new-top-bar,
+header .logo-wrap {
+    position: fixed;
+    z-index: 9;
+}
+.logo-wrap {
+    background: #ebebeb;
+    top: 40px;
+    padding: 20px 0;
 }
 /*END GLOBAL STYLING*/
 
@@ -92,7 +106,8 @@ a:hover {
 }
 /*NEW TOP BAR*/
 .new-top-bar {
-    background: #1e8dd5;
+    background: #337ab7;
+    height: 40px;
 }
 .new-top-bar h2,
 .new-top-bar h2 a {
@@ -109,7 +124,7 @@ a:hover {
     float: left;
 }
 .new-top-bar ul li a {
-    border-right: 1px solid #0199fb;
+    border-right: 1px solid #1e8dd5;
 }
 .new-top-bar ul li:last-child a {
     border-right: 0;
@@ -239,6 +254,9 @@ a:hover {
     background-color: #1e8dd5;
     border-color: #1e8dd5;
 }
+ul#side-menu {
+    position: fixed;
+}
 ul.side-menu-lg {
     position: relative;
 }
@@ -247,6 +265,7 @@ ul.side-menu-lg li a {
     display: block;
     padding: 7px 15px 0 0;
     font-size: 13px;
+    font-weight: 600;
 }
 ul.sub {
     display: block;
@@ -631,10 +650,10 @@ a.information,a.information:hover
 {
     padding-left: 15px;
 }
-.form-control::-webkit-input-placeholder { font-style: italic; font-size: 12px}
-.form-control:-moz-placeholder { font-style: italic; font-size: 12px}
-.form-control::-moz-placeholder { font-style: italic; font-size: 12px}
-.form-control:-ms-input-placeholder { font-style: italic; font-size: 12px}
+.form-control::-webkit-input-placeholder { font-size: 12px}
+.form-control:-moz-placeholder { font-size: 12px}
+.form-control::-moz-placeholder { font-size: 12px}
+.form-control:-ms-input-placeholder { font-size: 12px}
 
 .search-box-padding
 {
@@ -782,7 +801,11 @@ a.information,a.information:hover
 .row-items li {
     margin-top: 25px;
 }
-.row-item-image {
+.row-items li div {
+    padding-bottom: 10px;
+}
+.row-item-image a {
+    display: block;
     position: relative;
     overflow: hidden;
 }
@@ -803,10 +826,10 @@ a.information,a.information:hover
     webkit-transform: rotate(45deg);
 }
 .row-items li span.tag.tag-sale {
-    background: red;
+    background: #dc1a22;
 }
 .row-items li span.tag.tag-new {
-    background: #6ad4ff
+    background: #337ab7
 }
 .row-items p {
     padding: 10px 0;
@@ -837,7 +860,7 @@ a.information,a.information:hover
     bottom: 0;
 }
 .sale-price {
-    color: red;
+    color: #dc1a22;
 }
 .sale-price del {
     color: #999;
@@ -860,6 +883,15 @@ a.information,a.information:hover
 .footer-row ul li.social-container ul {
     margin-top: 10px;
 }
+.banners-sd ul li {
+    padding-right: 0;
+}
 .banners-sd ul li .row {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+.search-bar {
+    padding-top: 20px;
+}
+.below-banner ul li div {
+    padding-bottom: 5px;
 }

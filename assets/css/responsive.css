@@ -25,6 +25,9 @@
   .row-items-actions h3 {
     bottom: 65px;
   }
+  .featured-products {
+    margin: 5px 0 0 !important;
+  }
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
@@ -43,68 +46,78 @@
     {
       border: 1px solid #999;
     }
+    .home-content {
+        padding-top: 0 !important
+    }
     
  }/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 
 /* Large Screens */
 @media only screen and (min-width: 1200px) {   
-.row .first-row-left{
-padding-right: 0;  }
-.row .second-row-left
-{
-   padding-right: 0; 
-}
-.row .second-row-second-column
-{
-   padding-right: 0; 
-}
-  .row .third-row-first-column
-{
-   padding-right: 0; 
-}
-.row .content
-{
-padding-left: 0;
-padding-right: 0;
-}
-
-.row .bottom-images
-{
-   padding-left: 0;
+  .row .first-row-left{
+  padding-right: 0;  }
+  .row .second-row-left
+  {
+     padding-right: 0; 
+  }
+  .row .second-row-second-column
+  {
+     padding-right: 0; 
+  }
+    .row .third-row-first-column
+  {
+     padding-right: 0; 
+  }
+  .row .content
+  {
+  padding-left: 0;
   padding-right: 0;
-}
-.row .social-images
-{
-  padding-left: 1;
-  padding-right: 1;
-}
-.row .content-padding
-{
-  padding-right:0px;
-}
-.row .search-box-padding
-{
-  padding-right: 0px;
-} 
-.desktop-only
-{
-  display:block;
-}
-ul.side-menu-lg {
-    padding-right: 10px;
-}
-ul.side-menu-lg li a {
-    width: 165px;
-    display: block;
-    padding: 7px 30px 0 0;
-}
-ul.sub {
-    width: 530px;
-    min-height: 420px;
-    left: 162px;
-}
-    
+  }
+
+  .row .bottom-images
+  {
+     padding-left: 0;
+    padding-right: 0;
+  }
+  .row .social-images
+  {
+    padding-left: 1;
+    padding-right: 1;
+  }
+  .row .content-padding
+  {
+    padding-right:0px;
+  }
+  .row .search-box-padding
+  {
+    padding-right: 0px;
+  } 
+  .desktop-only
+  {
+    display:block;
+  }
+  ul.side-menu-lg {
+      padding-right: 10px;
+  }
+  ul.side-menu-lg li a {
+      width: 165px;
+      display: block;
+      padding: 7px 30px 0 0;
+  }
+  ul.sub {
+      width: 530px;
+      min-height: 420px;
+      left: 162px;
+  }
+
+  .below-banner ul li:first-child div{
+      padding: 0 5px 0 15px; 
+  }
+  .below-banner ul li:last-child div {
+      padding: 0 15px 0 5px;
+  }  
+      
  }/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 
