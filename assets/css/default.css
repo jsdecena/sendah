@@ -192,7 +192,11 @@ header .logo-wrap {
 }
 
 /*CATEGORIES*/
-.categories-sd > ul > li > a {
+.categories-sd-wrap {
+    position: fixed;
+    z-index: 3;
+}
+.categories-sd ul li a {
     display: block;
     padding: 5px 20px 0 0;
     font-weight: 400;
@@ -200,13 +204,13 @@ header .logo-wrap {
     position: relative;
     z-index: 1;
 }
-.categories-sd > ul > li > a i {
+.categories-sd ul li a i {
     position: absolute;
     top: 35%;
     right: 10px;
     color: #c9c9c9;
 }
-.categories-sd > ul > li > a:hover i {
+.categories-sd ul li a:hover i {
     color: #777;
 }
 .categories-sd ul ul {
@@ -255,22 +259,20 @@ header .logo-wrap {
     border-color: #1e8dd5;
 }
 ul#side-menu {
-    position: fixed;
-}
-ul.side-menu-lg li {
     position: relative;
 }
 ul.side-menu-lg li a {
-    width: 166px;
     display: block;
     padding: 7px 15px 0 0;
     font-size: 13px;
     font-weight: 600;
+    width: 145px;
 }
 ul.sub {
     display: block;
-    position: fixed;
-    top: 166px;
+    position: absolute;
+    left: 140px;
+    top: 0;
     width: 530px;
     min-height: 420px;    
     z-index: 3;
