@@ -2,32 +2,35 @@
 @media only screen {} /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
-  body, .top-newsletter-dropdown {
+    body, .top-newsletter-dropdown {
       margin-top: 51px;
       padding-left:0px;
-  }
-  .logo-sd img {
+    }
+    .logo-sd img {
       display: block;
       margin: 0 auto;
-  }
+    }
 
-   .no-right-border
-  {
+    .no-right-border
+    {
     border: 1px solid #999;
-  }
-  .content-header
-  {
+    }
+    .content-header
+    {
     font-size: 15px;
-  }
-  h4 del {
+    }
+    h4 del {
     display: block;
-  }
-  .row-items-actions h3 {
+    }
+    .row-items-actions h3 {
     bottom: 65px;
-  }
-  .featured-products {
+    }
+    .featured-products {
     margin: 5px 0 0 !important;
-  }
+    }
+    body .container-wrap {
+        padding: 170px 0 0;
+    }  
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
@@ -49,7 +52,9 @@
     .home-content {
         padding-top: 0 !important
     }
-    
+    .banners-sd .row {
+        /*padding-left: 3px !important*/
+    }
  }/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /* Large Screens */
@@ -115,7 +120,7 @@
     }
     .below-banner ul li:last-child div {
       padding: 0 15px 0 5px;
-    }    
+    }   
 }/* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
     .below-banner ul li:first-child div{

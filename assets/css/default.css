@@ -40,9 +40,6 @@ a:hover {
 .home-row {
     clear: both;
 }
-.home-row .row {
-    padding: 5px 0;
-}
 .social-container ul {
     margin: 0 0 10px;
     float: left;
@@ -749,7 +746,7 @@ a.information,a.information:hover
     webkit-border-radius: 5px;
 }
 .featured-products h1 {
-    margin: 20px 15px 0;
+    margin: 10px 15px 0;
     text-align: center;
     font-size: 24px;
     position: relative;
@@ -886,10 +883,10 @@ footer {
     margin-top: 10px;
 }
 .banners-sd ul li {
-    padding-right: 0;
+    /*padding-right: 0;*/
 }
 .banners-sd ul li ul li {
-    padding-top: 5px;
+    /*padding-top: 5px;*/
 }
 .search-bar {
     padding-top: 20px;
@@ -965,4 +962,20 @@ ul#color_to_pick_list li {
 }
 .recommendation {
     margin-top: 60px;
+}
+.banners-sd ul li:nth-child(1) .row,
+.banners-sd ul li:nth-child(2) > .row div:nth-child(1) .row {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.banners-sd ul li:nth-child(2) > .row ul li:nth-child(2) .row {
+    padding-left: 2px;
+}
+.banners-sd .row {
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.banners-sd {
+    margin-bottom: 10px;
+    float: left;
 }
