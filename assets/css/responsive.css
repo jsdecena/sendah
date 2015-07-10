@@ -30,7 +30,10 @@
     }
     body .container-wrap {
         padding: 170px 0 0;
-    }  
+    }
+    .category-pagination {
+        padding-top: 10px;
+    }    
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
@@ -52,9 +55,10 @@
     .home-content {
         padding-top: 0 !important
     }
-    .banners-sd .row {
-        /*padding-left: 3px !important*/
+    .product-description-sd {
+      padding-left: 15px;
     }
+
  }/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /* Large Screens */
@@ -120,7 +124,10 @@
     }
     .below-banner ul li:last-child div {
       padding: 0 15px 0 5px;
-    }   
+    }
+    .product-description-sd {
+      padding-left: 15px;
+    }
 }/* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
     .below-banner ul li:first-child div{
@@ -128,7 +135,10 @@
     }
     .below-banner ul li:last-child div {
       padding: 0 15px 0 5px;
-    }    
+    }
+    .product-description-sd {
+      padding-left: 15px;
+    }        
   } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 // XLarge screens

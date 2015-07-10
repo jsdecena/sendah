@@ -905,6 +905,9 @@ footer {
 .category-pagination.bottom-page {
     padding-top: 20px;
 }
+.cat-navs-sd {
+    padding-top: 20px;
+}
 .category-pagination ul {
     margin: 0;
 }
